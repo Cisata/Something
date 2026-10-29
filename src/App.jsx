@@ -61,7 +61,7 @@ const personalMessage = "Let's play MLBB again soon! I am sorry!";
       )}
 
       {stage === 1 && (
-        <h1 className="greeting">A little surprise for you (❁´◡`❁) ♡</h1>
+        <h1 className="greeting">A little surprise for you 😁 ♡</h1>
       )}
 
       {stage >= 2 && (
@@ -192,7 +192,7 @@ const personalMessage = "Let's play MLBB again soon! I am sorry!";
           {stage === 0
             ? ''
             : stage === 1
-              ? 'Someone has a gift for you... Not Jungkook, but still a gift! (╯°□°）╯︵ ┻━┻ ♡'
+              ? 'Someone has a gift for you (¬‿¬) ♡'
               : stage === 2
                 ? 'Look what I brought you! (☞ﾟヮﾟ)☞🌷'
                 : 'One little message more... (ˉ﹃ˉ)'}
